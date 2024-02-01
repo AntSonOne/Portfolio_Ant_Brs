@@ -1,6 +1,6 @@
 # Antoine Berson Portfolio ✨
 
-Live version ➡️ [here](https://antsonone.github.io/) ⬅️, check it out 👀
+Live version ➡️ [here](https://antsonone.github.io/Portfolio_Ant_Brs/) ⬅️, check it out 👀
 
 ## Made with open source template 🙏
 

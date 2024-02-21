@@ -21,7 +21,7 @@ const Projects = () => {
           {projects.map((project) => ( 
           <Col md={4} className="project-card" key={Math.random()}>
             <ProjectCard 
-              imgPath={project.imgPath}
+              imgPath={project.id === 1 ? kasa : grimoire}
               isBlog={project.isBlog}
               title={project.title}
               description={project.description}              

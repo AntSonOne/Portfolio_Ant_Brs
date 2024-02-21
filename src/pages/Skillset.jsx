@@ -5,6 +5,7 @@ import Particle from '../components/Particle';
 import Github from "../components/Skillset/Github";
 import Techstack from "../components/Skillset/Techstack";
 import Toolstack from "../components/Skillset/Toolstack";
+import Skills from "../components/Skillset/Skills";
 
 const Skillset = () => {
   return (
@@ -22,6 +23,7 @@ const Skillset = () => {
         </h1>
         <Toolstack />
 
+        <Skills />
         {/* <Leetcode /> */}
         <Github />
       </Container>

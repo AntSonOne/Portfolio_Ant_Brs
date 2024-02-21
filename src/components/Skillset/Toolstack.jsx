@@ -7,25 +7,37 @@ import {
   SiGithub,
   SiNotion
 } from "react-icons/si";
+import Tooltip from 'react-bootstrap/Tooltip';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 
 const Toolstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNotion />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-      </Col>
+      <OverlayTrigger overlay={ <Tooltip>VSCode</Tooltip>}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiVisualstudiocode />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger overlay={ <Tooltip>Postman</Tooltip>}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiPostman />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger overlay={ <Tooltip>Github</Tooltip>}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiGithub />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger overlay={ <Tooltip>Notion</Tooltip>}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiNotion />
+        </Col>
+      </OverlayTrigger>
+      <OverlayTrigger overlay={ <Tooltip>Heroku</Tooltip>}>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiHeroku />
+        </Col>
+      </OverlayTrigger>
     </Row>
   );
 }

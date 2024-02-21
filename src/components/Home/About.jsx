@@ -17,7 +17,11 @@ const About = () => {
                  j'ai 26 ans <b className="yellow"> et je vis à Bordeaux.</b>
                 <br />
                 <br />
-                J'ai récemment achevé ma formation de <b className="yellow">développeur web</b> en alternance avec <b className="yellow"> OpenClassrooms.</b>
+                J'ai suivi en 2022 le bootcamp <b className="yellow">Le Wagon</b> en  <b className="yellow">développement web</b>, formation reconnue RNCP6.
+                J'ai ensuite poursuivi mon parcours en optant pour <b className="yellow">l'alternance</b> avec <b className="yellow"> OpenClassrooms.</b>
+                <br />
+                <br />
+                Durant cette période d'alternance d'un an j'ai eu l'occasion de développer une application <b className="yellow">React</b> et d'y intégrer des <b className="yellow">tests</b>.
                 <br />
                 <br />
                   En tant que 

@@ -5,6 +5,7 @@
         "isBlog":false,
         "title" : "Kasa App",
         "description":"Réalisation du frontend d'une application de location immobilière avec React et Sass. Gestion du routing et des props. Création de composants et encapsulation de leur style grâce aux Classnames. Génération de listes dynamiques. Problématique de state management des composants gérée avec les hooks afin d'adapter l'affichage.",
+        "skills":["-Configurer la navigation entre les pages de l'application avec React Router","-Initialiser une application avec Create React App","-Développer des éléments de l'interface d'un site web grâce à des composants React"],
         "ghLink":"https://github.com/AntSonOne/Kasa-App"
     },
     {
@@ -13,6 +14,7 @@
         "isBlog":false,
         "title" : "Mon Vieux Grimoire",
         "description":"Réalisation du backend d'une application de notation de livres avec NodeJS, Express et MongoDB. Résolution de problèmes complexes liés au fonctionnement d'un serveur, notamment la gestion de l'authentification des utilisateurs avec JWT et des middlewares. Respect des bonnes pratiques en matière de sécurité et de green IT.",
+        "skills":["-Implémenter un modèle logique de données conformément à la réglementation","-Mettre en œuvre des opérations CRUD de manière sécurisée","-Stocker des données de manière sécurisée"],
         "ghLink":"https://github.com/AntSonOne/Book_rating"
     }
 ]

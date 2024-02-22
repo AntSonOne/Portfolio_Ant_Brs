@@ -35,9 +35,14 @@ const ProjectCard = (props) => {
         }}
       >
         <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify",fontSize:"15px" }}>
+        <Card.Text style={{ textAlign: "justify",fontSize:"12px", fontWeight:"bold" }}>
           {props.description}
         </Card.Text>
+          {props.skills.map((skill)=> 
+           <Card.Text style={{ textAlign: "justify",fontSize:"12px", fontWeight:"bold" }}>
+          {skill}
+           </Card.Text>
+          )}
         <Button
           variant="primary"
           href={props.ghLink}

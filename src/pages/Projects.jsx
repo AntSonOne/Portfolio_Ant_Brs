@@ -18,14 +18,16 @@ const Projects = () => {
           Voici quelques projets sur lesquels j'ai travaillé.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           {projects.map((project) => ( 
           <Col md={4} className="project-card" key={Math.random()}>
-            <ProjectCard 
+            <ProjectCard
               imgPath={project.id === 1 ? kasa : grimoire}
               isBlog={project.isBlog}
               title={project.title}
-              description={project.description}              
-              ghLink={project.ghLink}/>     
+              description={project.description}     
+              skills={project.skills}         
+              ghLink={project.ghLink}/> 
           </Col>))}
         </Row>
       </Container>
